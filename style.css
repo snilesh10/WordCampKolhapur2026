@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-.home-hero-heading .hero-section-homepage h1 {
+.hero-section-homepage h1 {
     position: relative;
 }
 .hero-section-homepage h1:before, .hero-section-homepage h1:after {
