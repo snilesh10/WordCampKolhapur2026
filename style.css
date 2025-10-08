@@ -1,3 +1,6 @@
-.entry-content{
-    background:red !important;
+.hero-section-homepage{
+    background-image: url('https://kolhapur.wordcamp.org/2026/files/2025/10/bg-kolhapur.webp');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
