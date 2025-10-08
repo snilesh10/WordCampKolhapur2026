@@ -24,3 +24,6 @@
     left: auto;
     transform: scaleX(-1);
 }
+.homepage-join-wordcamp .wp-block-column{
+    padding:25px;
+}
