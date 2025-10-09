@@ -32,8 +32,9 @@
 .home ul.wp-block-latest-posts{
     background:red;
    display: flex;
-  flex-wrap: wrap;        /* allow wrapping to create “rows” */
 
+  flex-direction: column;  /* vertical stacking */
+  gap: 10px;
 }
 .home ul.wp-block-latest-posts li{
   flex: 1 1 33.333%;      /* grow and shrink; base width ≈ 33.333% */
