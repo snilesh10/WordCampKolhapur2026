@@ -45,7 +45,7 @@
 
 /* Responsive for mobile */
 @media (max-width: 768px) {
-  .grid-container {
+  .home ul.wp-block-latest-post {
     grid-template-columns: 1fr;
   }
 }
