@@ -29,8 +29,12 @@
     border-radius: 20px;
 }
 /* Homepage news box */
-.homepage-news-box{
+.homepage-news-box ul{
     background:red;
     display:flex;
     flex-direction: row;
+}
+.homepage-news-box ul li{
+    padding:15px;
+    border:1px solid yellow;
 }
