@@ -31,21 +31,22 @@
 /* Homepage news box */
 .home ul.wp-block-latest-posts{
     background:red;
-    display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 10px;
+   display: flex;
+  flex-wrap: wrap;        /* allow wrapping to create “rows” */
+  gap: 20px;    
 }
 .homepage-news-box ul li{
-    padding:15px;
-    border:1px solid yellow;
-    text-align: center;
+    flex: 1 1 33.333%;      /* grow and shrink; base width ≈ 33.333% */
+  min-width: 0;           /* critical: let content shrink inside flex items */
+  background: #f6f6f6;
+  padding: 16px;
   border-radius: 8px;
+  overflow-wrap: break-word;
 }
 
 /* Responsive for mobile */
 @media (max-width: 768px) {
-  .home ul.wp-block-latest-post {
-    grid-template-columns: 1fr;
+  .home ul.wp-block-latest-post li {
+    flex-basis: 100%
   }
 }
