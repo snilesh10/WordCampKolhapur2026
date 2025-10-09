@@ -43,6 +43,7 @@
   padding: 16px;
   border-radius: 8px;
   overflow-wrap: break-word;
+  display: inline;
 }
 
 /* Responsive for mobile */
