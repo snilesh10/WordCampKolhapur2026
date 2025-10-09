@@ -29,7 +29,7 @@
     border-radius: 20px;
 }
 /* Homepage news box */
-.homepage-news-box ul.wp-block-latest-posts{
+.home ul.wp-block-latest-posts{
     background:red;
     display:flex;
     flex-direction: row;
