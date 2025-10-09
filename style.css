@@ -35,7 +35,7 @@
   flex-wrap: wrap;        /* allow wrapping to create “rows” */
   gap: 20px;    
 }
-.homepage-news-box ul li{
+.home ul.wp-block-latest-posts li{
     flex: 1 1 33.333%;      /* grow and shrink; base width ≈ 33.333% */
   min-width: 0;           /* critical: let content shrink inside flex items */
   background: #f6f6f6;
