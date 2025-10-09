@@ -28,3 +28,9 @@
     padding:25px;
     border-radius: 20px;
 }
+/* Homepage news box */
+.homepage-news-box{
+    background:red;
+    display:flex;
+    flex-direction: row;
+}
