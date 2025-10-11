@@ -27,6 +27,7 @@
 .homepage-join-wordcamp .wp-block-column{
     padding:25px;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 /* Homepage news box */
 .home ul.wp-block-latest-posts{
