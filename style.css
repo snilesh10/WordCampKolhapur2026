@@ -1,4 +1,6 @@
 .hero-section-homepage{
+    background: #fa5737;
+    background: radial-gradient(circle,rgba(250, 87, 55, 1) 0%, rgba(204, 57, 27, 1) 50%);
     background-image: url('https://kolhapur.wordcamp.org/2026/files/2025/10/wordcamp-kolhapur-2025.webp');
     background-position: 50% 100%;
     background-repeat: no-repeat;
