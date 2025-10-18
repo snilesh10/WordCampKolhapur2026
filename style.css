@@ -1,6 +1,6 @@
 .hero-section-homepage{
-    background-color: #C73D22;
-background-color: radial-gradient(circle,rgba(199, 61, 34, 1) 0%, rgba(191, 50, 21, 1) 50%);
+    background-color: #ffffff;
+background-color: #ffffff;
 
 /*    background-image: url('https://kolhapur.wordcamp.org/2026/files/2025/10/wordcamp-kolhapur-2025.webp');
 */
@@ -12,6 +12,7 @@ background-position: 50% 100%;
 .hero-section-homepage h1 {
     position: relative;
 }
+/*
 .hero-section-homepage h1:before, .hero-section-homepage h1:after {
     position: absolute;
     content: '';
@@ -23,6 +24,7 @@ background-position: 50% 100%;
     background-size: contain;
     background-repeat: no-repeat;
 }
+    */
 .hero-section-homepage h1:after {
     top: -60px;
     right: -80px;
@@ -42,8 +44,7 @@ background-image: url('https://kolhapur.wordcamp.org/2026/files/2025/10/bg-img-2
 }
 /* Homepage news box */
 .home ul.wp-block-latest-posts{
-    background:red;
-   display: flex;
+  display: flex;
 
   flex-direction: column;  /* vertical stacking */
   gap: 10px;
